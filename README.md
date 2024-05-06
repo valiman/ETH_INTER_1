@@ -1,7 +1,3 @@
-Below is a README file for the `NegativeCheck` Solidity contract. This README file is formatted using Markdown, which is a lightweight markup language with plain text formatting syntax. This format is widely used for README files because it's easy to read and write.
-
----
-
 # NegativeCheck Contract
 
 The `NegativeCheck` contract is a Solidity smart contract designed to demonstrate the handling and verification of negative integers. It provides methods to check if a given number is negative and demonstrates different error-handling strategies in Solidity using `require`, `revert`, and `assert`.
@@ -73,11 +69,3 @@ To deploy and test the `NegativeCheck` contract, follow these steps:
    const response = await nc.testRequireIsNegative(-5);
    console.log(response);
    ```
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README file provides essential information about the contract, including how to setup, compile, and deploy the contract using Truffle, a popular development framework for Ethereum.
